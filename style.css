@@ -1,0 +1,84 @@
+.navbar {
+    margin: 0%;
+    padding: 0%;
+    height: 0%;
+
+    .container-fluid {
+        margin: 0%;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
+}
+
+
+main {
+    .container-fluid {
+        display: grid;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 80px;
+        font-style: oblique;
+        text-align: center;
+        margin-top: 10%;
+
+    }
+    
+}
+
+.titre1 {
+    margin-top: 5%;
+    font-size: 30px;
+    text-decoration: underline;    
+}
+
+#design {
+    margin-top: 5%;
+    padding: 5%;
+
+    .descript {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+
+    .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        color: red;
+    }
+}
+
+footer {
+    .container-fluid {
+        margin-top: 10%;
+        padding: 20px;
+        
+
+        .copyright {
+            text-align: center;
+        }
+    }
+}
+
+@media (min-width:319px) and (max-width:560px) {
+    .navbar {
+        margin: 0%;
+        padding: 0%;
+        width: 100vw;
+        height: 50vh;
+
+        .container-fluid{
+            margin: 0%;
+            padding: 0%;
+            width: 100vw;
+
+        }
+    }
+
+    #design {
+        display: block;
+        text-align: justify;
+        padding: 0%;
+        justify-items: auto;
+    }
+}
